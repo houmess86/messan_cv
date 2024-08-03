@@ -1,0 +1,64 @@
+.bac {
+  height: 95vh;
+  width: 90vw;
+  margin: 40px auto;
+  background: wheat;
+  font-weight: 900;
+  text-align: center;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bepc {
+  height: 80%;
+  width: 90%;
+  display: block;
+  margin: 40px auto;
+}
+.cep {
+  background: blue;
+  color: white;
+  border: 1px solid red;
+}
+#lice {
+  display: block;
+  min-height: 100px;
+  width: 70%;
+  margin: 20px auto;
+  transform: rotate(-90deg);
+}
+@media screen and (max-width: 425px) {
+  #lice {
+    height: 90%;
+    width: 95%;
+    transform: rotate(0deg);
+  }
+}
+.container {
+  height: 600px;
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas:
+    "at1 at2"
+    "at3 at4";
+}
+.attest {
+  border: 5px solid green;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2px;
+}
+.at {
+  border: 5px solid yellow;
+}
+.att {
+  border: 5px solid red;
+}
